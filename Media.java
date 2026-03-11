@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Media aritmetica de tres notas {
+public class Media {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
