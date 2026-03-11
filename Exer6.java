@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Salario com gratificacao e imposto {
+public class Imposto {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
