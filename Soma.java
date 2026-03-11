@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Soma de quatro números inteiros {
+public class Soma {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
