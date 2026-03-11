@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Salario com aumento de 25% {
+public class Salario {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
