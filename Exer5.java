@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Salario com percentual de aumento {
+public class Salario {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
