@@ -24,7 +24,7 @@ public class Produto {
         if (quantidade <= quantidadeEmEstoque) {
             quantidadeEmEstoque -= quantidade;
         } else {
-            System.out.println("Estoque insuficiente!");
+            System.out.println("Estoque insuficiente");
         }
     }
 }
