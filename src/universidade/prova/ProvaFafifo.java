@@ -1,13 +1,13 @@
 package universidade.prova;
 
-/**
+/*
  * Implementação das regras específicas da Fafifo.
  * Herda de ProvaUniversidade para utilizar a estrutura base.
  */
 public class ProvaFafifo extends ProvaUniversidade {
 
     public ProvaFafifo() {
-        // Requisito 1: Média mínima para aprovação na Fafifo é 6.0
+        // Requisito 1: Média mínima para aprovação na Fafifo é 7.0
         this.mediaMinima = 7.0;
         
         // Requisito 2: Pesos específicos (AV1=1, AV2=1, AV3=3)
@@ -38,7 +38,7 @@ public class ProvaFafifo extends ProvaUniversidade {
     }
 }
 
-/**
+/*
  * Classe de Prova Final específica para a Fafifo.
  */
 class ProvaFinalFafifo extends ProvaFinalUniversidade {
