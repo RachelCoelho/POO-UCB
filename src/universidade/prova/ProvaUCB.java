@@ -32,6 +32,6 @@ class ProvaAV3UCB extends ProvaFinalUniversidade {
 
     @Override
     public boolean habilitadoRealizarProva() {
-        return true; // UCB pode fazer mesmo aprovado
+        return true; 
     }
 }
