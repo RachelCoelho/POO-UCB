@@ -34,7 +34,7 @@ class ProvaFinalFafifo extends ProvaFinalUniversidade {
 
     @Override
     public boolean habilitadoRealizarProva() {
-        // Regra: Só faz AV3 se ainda não atingiu a média (6.0)
+        // Regra: Só faz AV3 se ainda não atingiu a média (7.0)
         double mediaParcial = (provaOriginal.av1 + provaOriginal.av2) / 2;
         return mediaParcial < provaOriginal.mediaMinima;
     }
